@@ -2,41 +2,53 @@
 
 Welcome to the kids drawing play app for Android!
 
-This is an open source Android app developed by Wrichik Basu. The source code is available on GitHub under the GNU AGPL license (3.0 or later).
+1. Introduction
 
-As an avid Android user myself, I take privacy very seriously.
-I know how frustrating it is when apps collect your data without your knowledge.
+Welcome to the Kids Drawing Play app ("we", "our", "us"). We are committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). Please read this policy carefully to understand our views and practices regarding your personal data and how we will treat it.
 
-### Data collected by the app
+2. Information We Collect
 
-I hereby state, to the best of my knowledge and belief, that I have not programmed this app to collect any personally identifiable information. All data (app preferences (like theme) and alarms) created by the you (the user) is stored locally in your device only, and can be simply erased by clearing the app's data or uninstalling it. No analytics software is present in the app either.
+We may collect and process the following data about you and your device:
 
-### Explanation of permissions requested in the app
+    Personal Data: We do not knowingly collect personal data from children. Our App is designed for use by children under 18, and we ensure that our app is compliant with the Children’s Online Privacy Protection Act (COPPA).
+    Usage Data: We may collect information about how the App is accessed and used. This usage data may include information such as the type of mobile device you use, your mobile device's unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, and other diagnostic data.
 
-The list of permissions required by the app can be found in the `AndroidManifest.xml` file:
+3. Use of Your Information
 
-https://github.com/WrichikBasu/ShakeAlarmClock/blob/d7f323c7769ad600d4f97eb499f3d7fa34a2a1fc/app/src/main/AndroidManifest.xml#L21-L38
-<br/>
+We use the information we collect to:
 
-| Permission | Why it is required |
-| :---: | --- |
-| `android.permission.USE_EXACT_ALARM` | Introduced in Android 13 (API level 33), this permission allows the app to set an exact alarm with the Android system, ensuring that the system will wake up from doze mode when the alarm rings. Granted by the system by default and cannot be revoked by the user. Requested in Android 13 and above. |
-| `android.permission.SCHEDULE_EXACT_ALARM` | Was introduced in Android 12 and required to set an exact alarm. If your device is running Android 12, the app requests this permission to set an exact alarm. This is the same as `USE_EXACT_ALARM`, except that you, the user, or the system, can revoke this permission at any time from Settings. Revoking this permission will, however, kill the app immediately if it was in foreground, and cancel all alarms set by the app. |
-| `com.android.alarm.permission.SET_ALARM` | Basic permission required to set alarms, whether exact or inexact. Automatically granted by the system; cannot be revoked by user. |
-| `android.permission.READ_MEDIA_AUDIO` (API level >= 33) and `android.permission.READ_EXTERNAL_STORAGE` | An optional permission. Has to be granted by the user manually; can be revoked by the system or the user at any time. This is required only if you want to set a custom alarm tone.  In some devices, the app may function properly if you choose an alarm tone from the default set of alarm tones provided by the device. However, if you want to select a song or a tone that is not supplied by your device by default, then this permission is absolutely essential. Besides, tests reveal that setting a tone other than the default alarm tone and revoking this permission later _often_ results in the app not being able to access the custom tone when the alarm rings, because the app is not permitted by the system to read the tone file. In that case, the app will fallback to the default alarm tone of the device when the alarm rings. `READ_MEDIA_AUDIO` is a granular permission introduced in API level 33, and is, therefore, requested in Android 13 and higher. For lower Android versions upto Android 12, the app requests `READ_EXTERNAL_STORAGE`. |
-| `android.permission.POST_NOTIFICATIONS` | Required by the app to post notifications. Has to be granted by the user manually; can be revoked by the system or the user at any time. It is highly recommended that you allow this permission so that the app can show the alarm dismissal screen when the alarm rings. |
-| `android.permission.ACCESS_NOTIFICATION_POLICY` | Allows the app to change the Do Not Disturb settings of the device to make sure that an alarm rings. It is an optional permission. If not granted, the app will respect the DND settings of your device when ringing the alarm. |
-| `android.permission.VIBRATE` | Required to vibrate the device when alarm is ringing. Permission automatically granted by the system; can't be revoked by user. |
-| `android.permission.WAKE_LOCK` , `android.permission.DISABLE_KEYGUARD` and `android.permission.USE_FULL_SCREEN_INTENT` | Required to the show alarm screen when an alarm is ringing. Automatically granted by the system; cannot be revoked by user. |
-| `android.permission.FOREGROUND_SERVICE` | Enables the app to create foreground services that will ring the alarm and keep it snoozed. Permission automatically granted by the system; can't be revoked by user. |
-| `android.permission.FOREGROUND_SERVICE_SPECIAL_USE` | Conveys to the system the type of foreground Service that the app uses. Cannot be revoked by the user. |
-| `android.permission.RECEIVE_BOOT_COMPLETED` | When your device restarts, all alarms set in the system are lost. This permission enables the app to receive a message from the system once the system has rebooted and you have unlocked your device the first time. When this message is received, the app creates a service to set all the active alarms in the system.|
+    Provide and maintain the App
+    Improve the App and your experience
+    Understand and analyze how you use our App
+    Ensure the security of the App
 
- <hr style="border:1px solid gray">
+4. Sharing Your Information
 
-If you find any security vulnerability that has been inadvertently caused by me, or have any question regarding how the app protectes your privacy, please send me an email or post a discussion on GitHub, and I will surely try to fix it/help you.
+We do not share or sell any personal data to third parties. However, we may share non-personal data (e.g., anonymized usage data) with our partners to help us understand usage patterns and improve our services.
+
+5. Data Security
+
+We have implemented appropriate technical and organizational measures to protect your information from accidental loss, misuse, unauthorized access, disclosure, alteration, and destruction. However, please note that no method of transmission over the Internet or method of electronic storage is 100% secure.
+
+6. Parental Control
+
+If you are a parent or guardian and you believe that your child under 13 has provided us with personal data, please contact us so that we can take steps to remove such information from our servers.
+
+7. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+8. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us:
+
+    By email: kibriame@gmail.com
+
+9. Consent
+
+By using our App, you consent to our Privacy Policy.
 
 Yours sincerely,  
-Wrichik Basu.  
-Kolkata, India.  
-basulabs.developer@gmail.com
+Muhammad Gulam Kibria  
+Dhaka, Bangladesh.  
+kibriame@gmail.com
