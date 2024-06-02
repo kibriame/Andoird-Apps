@@ -10,7 +10,7 @@ Welcome to the Kids Drawing Play app ("we", "our", "us"). We are committed to pr
 
 We may collect and process the following data about you and your device:
 
-    Personal Data: We do not knowingly collect personal data from children. Our App is designed for use by children under 18, and we ensure that our app is compliant with the Children’s Online Privacy Protection Act (COPPA).
+    Personal Data: We do not knowingly collect personal data from children. Our App is designed for use by children under 13, and we ensure that our app is compliant with the Children’s Online Privacy Protection Act (COPPA).
     Usage Data: We may collect information about how the App is accessed and used. This usage data may include information such as the type of mobile device you use, your mobile device's unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, and other diagnostic data.
 
 3. Use of Your Information
