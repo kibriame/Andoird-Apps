@@ -1,6 +1,6 @@
-## Shake Alarm Clock: Privacy policy
+## Privacy Policy for kids drawing play
 
-Welcome to the Shake Alarm Clock app for Android!
+Welcome to the kids drawing play app for Android!
 
 This is an open source Android app developed by Wrichik Basu. The source code is available on GitHub under the GNU AGPL license (3.0 or later).
 
